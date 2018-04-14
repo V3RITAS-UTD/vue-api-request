@@ -71,7 +71,7 @@
       },
       spinner: { // type of spinner
         type: String,
-        'default': ''
+        'default': 'BeatLoader'
       },
       spinnerColor: { // spinner color
         type: String,
