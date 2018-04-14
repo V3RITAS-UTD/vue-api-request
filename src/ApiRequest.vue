@@ -39,7 +39,15 @@
 <script>
   import 'animate.css'
 
+  // spinner
+  import BeatLoader from 'vue-spinner/src/BeatLoader.vue'
+
+
   export default {
+    components: {
+      BeatLoader
+    },
+    
     data () {
       return {
         animate: null,
