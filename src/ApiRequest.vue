@@ -38,13 +38,8 @@
 
 <script>
   import 'animate.css'
-  import BeatLoader from 'vue-spinner/src/BeatLoader.vue'
 
   export default {
-    components: {
-      BeatLoader
-    },
-
     data () {
       return {
         animate: null,
@@ -76,7 +71,7 @@
       },
       spinner: { // type of spinner
         type: String,
-        'default': 'BeatLoader'
+        'default': ''
       },
       spinnerColor: { // spinner color
         type: String,
